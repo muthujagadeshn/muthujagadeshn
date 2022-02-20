@@ -1,0 +1,21 @@
+1.Why is Java a platform independent language?
+Java is platform-independent because it does not depend on any type of platform. Hence, Java is platform-independent language. In Java, programs are compiled into byte code and that byte code is platform-independent. ... Any machine to execute the byte code needs the Java Virtual Machine.
+------------------------------------------------------------------------------------------------------
+2. What do you understand by an instance variable and a local variable?
+An instance variable is a variable that is declared in a class but outside a method while the local variable is a variable declared within a method or a constructor. Thus, this is the main difference between instance variable and local variable
+----------------------------------------------------------------------------------------------------------
+3.Can we overload main method in Java
+Yes, We can overload the main method in java but JVM only calls the original main method, it will never call our overloaded main method.
+-----------------------------------------------------------------------------------------------------------
+4.What are the access modifiers available in java
+private,public,protected,dafault.
+------------------------------------------------------------------------------------------------------------
+5.How will you call a non static method from main method in java
+When you need to use it, you don't need to create a new Integer object, you simply call it. The same thing for main(). If you need to call a non-static member from it, simply put your main code in a class and then from main create a new object of your newly created class.
+-------------------------------------------------------------------------------------------------------------
+6.Why String is immutable in java?
+The String is immutable in Java because of the security, synchronization and concurrency, caching, and class loading. The reason of making string final is to destroy the immutability and to not allow others to extend it. The String objects are cached in the String pool, and it makes the String immutable.
+-------------------------------------------------------------------------------------------------------------
+7.What is the difference between concat() and concatenation  operator "+" ?
+concat() method takes only one argument of string and concatenates it with other string. + operator takes any number of arguments and concatenates all the strings.
+
