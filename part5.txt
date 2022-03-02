@@ -1,0 +1,48 @@
+1) What is Selenium? What are the different Selenium components? Explain about Selenium Webdriver.
+
+There are four components of Selenium – Selenium IDE, RC, WebDriver, and Grid. Last two being the most famous one. Different components of Selenium provides different features – multiple browsers support, parallel test capabilities, execution on multiple machines and much more.
+
+2) How does Selenium communicate with the Web browsers?
+
+Data Communication − To communicate between server and client (browser), selenium web driver uses JSON. JSON Wire Protocol is a REST API that transfers the information between HTTP servers. Each Browser Driver has its own HTTP server.
+
+
+3.Whatr are the locators available  to find an element using Selenium?
+
+The different locators in Selenium are as follows:
+By CSS ID: find_element_by_id.
+By CSS class name: find_element_by_class_name.
+By name attribute: find_element_by_name.
+By DOM structure or xpath: find_element_by_xpath.
+By link text: find_element_by_link_text.
+By partial link text: find_element_by_partial_link_text.
+
+
+4. Why ID is preferable than X-Path?
+This is because : ID is considered as unique key so there cannot be more than 1 elements for same ID while Xpath is created using relative path/position of elements, so there can be cases when we can get 2 or more elements for same Xpath.
+
+
+5.How to select value in dropdown?
+Method 1: Using the value property: The value of the selected element can be found by using the value property on the selected element that defines the list. This property returns a string representing the value attribute of the <option> element in the list. If no option is selected then nothing will be returned.
+
+
+6) What is the difference between Absolute Path and Relative Path?
+An absolute path is defined as specifying the location of a file or directory from the root directory(/). In other words,we can say that an absolute path is a complete path from start of actual file system from / directory. Relative path is defined as the path related to the present working directly(pwd).
+
+
+7) How to verify if the given check box is checked or not (it is not taught but you can explore) Try here: http://leafground.com/pages/checkbox.html
+First, select the checkbox using a DOM method such as getElementById() or querySelector() .
+Then, access the checked property of the checkbox element. If its checked property is true , then the checkbox is checked; otherwise, it is not.
+
+
+8)Difference between System.setProperty and WebDriverManager
+What is the use of WebDriverManager?
+WebDriverManager automates the browser setup in the Selenium code. By default, it downloads the latest version of the browser binary and also the binary for the appropriate platform.
+What is System setProperty in Selenium?
+setProperty manages the initialization of the Chrome driver in the first step. Try Selenium Testing For Free. The System. setProperty() method forms the basis for test case automation on any browser. Naturally, QAs must understand how to use this fundamental method for all automation purposes in Selenium
+9) Write the syntax for preceding and following x-paths.
+The following-sibling and preceding-sibling axes contain the siblings before or after the context node, and the following and preceding axes contain all nodes in the document before or after the context node, but: None of these axes contain attribute or namespace nodes.
+
+
+10) How to get an attribute value using Selenium WebDriver?
+The getAttribute() method helps to get the value of any attribute of a web element, which is returned as a String. If an attribute has a Boolean value, the method returns either True or null. Also, if there is no attribute, the method will return null.
